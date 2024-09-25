@@ -19,7 +19,7 @@ const Home: React.FC = () => {
             <p className="lead mb-4">
               {' '}
               {/* Added margin-bottom */}
-              Your next React developer: CJ Luo.
+              Your next Full Stack developer: CJ Luo.
             </p>
             <div className="d-flex justify-content-center mb-4">
               {' '}
