@@ -19,6 +19,9 @@ const NavBar: React.FC = () => {
           <Nav.Link as={Link} to="/projects" className="mx-3">
             Projects
           </Nav.Link>
+          <Nav.Link as={Link} to="/my-journey" className="mx-3">
+            My Journey
+          </Nav.Link>
           <Nav.Link as={Link} to="/contact" className="mx-3">
             Contact
           </Nav.Link>

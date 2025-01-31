@@ -6,6 +6,7 @@ import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
+import MyJourney from './pages/MyJourney'
 // import './App.css'
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
             <Route path="" element={<Home />} />
             <Route path="/resume/" element={<Resume />} />
             <Route path="/projects/" element={<Projects />} />
+            <Route path="/my-journey" element={<MyJourney />} />
             <Route path="/contact/" element={<Contact />} />
           </Routes>
         </Container>
